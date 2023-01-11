@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Agcode - Template HTML Basic</title>
+</head>
+
+<body>
+    <section id="home">
+        <div class="container">
+            <!-- navigation bar start -->
+            <div class="navrapper">
+                <ul class="navigation">
+                    <li class="navlink">
+                        <a href="#home" class="nav">HOME</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="#about" class="nav">ABOUT</a>
+                    </li>
+                    <li class="navlink">
+                        <a href="#contact" class="nav">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- navigation bar end -->
+            <div class="contentrapper">
+                <h1>HOME</h1>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container blue">
+            <div class="contentrapper">
+                <h1>ABOUT</h1>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container red">
+            <div class="contentrapper">
+                <h1>CONTACT</h1>
+            </div>
+        </div>
+    </section>
+    <div class="top" onclick="goToTop()">UP</div>
+    <script>
+        const goToTop = () => {
+            return location.href = "#home"
+        }
+    </script>
+</body>
+
+</html>
